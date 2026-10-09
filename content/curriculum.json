@@ -1,0 +1,1661 @@
+{
+  "path": {
+    "id": "seni-rupa-dasar",
+    "title": "Seni Rupa Dasar"
+  },
+  "stages": [
+    {
+      "id": "stage-1",
+      "order": 1,
+      "title": "Dunia Garis & Bentuk",
+      "mascot": "pensil",
+      "guide": {
+        "summary": "Mengenal berbagai jenis garis dan bentuk dasar dalam seni rupa.",
+        "key_points": [
+          "Garis lurus, lengkung, zigzag, putus-putus",
+          "Bentuk geometris dan organik",
+          "Titik membentuk garis, garis tertutup membentuk bidang"
+        ],
+        "terms": [
+          {
+            "term": "Garis kontur",
+            "definition": "Garis tepi atau batas sebuah bentuk."
+          },
+          {
+            "term": "Blind contour",
+            "definition": "Menggambar kontur tanpa melihat kertas."
+          },
+          {
+            "term": "Geometris",
+            "definition": "Bentuk beraturan seperti kotak, lingkaran, segitiga."
+          },
+          {
+            "term": "Organik",
+            "definition": "Bentuk tidak beraturan seperti daun, awan."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s1-c1",
+          "order": 1,
+          "title": "Kenali Garis",
+          "is_boss": false,
+          "theory": [
+            {
+              "text": "Garis adalah titik yang bergerak.",
+              "image": "📏"
+            },
+            {
+              "text": "Garis horizontal terasa tenang, diagonal terasa bergerak.",
+              "image": "⚡"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "s1c1-q1",
+              "question": "Garis yang naik-turun seperti ombak disebut?",
+              "options": [
+                "Lurus",
+                "Bergelombang",
+                "Putus-putus"
+              ],
+              "answer_index": 1,
+              "explanation": "Garis bergelombang naik-turun secara berirama."
+            },
+            {
+              "id": "s1c1-q2",
+              "question": "Garis horizontal umumnya memberi kesan?",
+              "options": [
+                "Tenang dan stabil",
+                "Cepat dan marah",
+                "Tegang"
+              ],
+              "answer_index": 0,
+              "explanation": "Garis horizontal seperti orang tidur, tenang."
+            },
+            {
+              "id": "s1c1-q3",
+              "question": "Garis diagonal umumnya memberi kesan?",
+              "options": [
+                "Diam",
+                "Gerak/dinamis",
+                "Sejuk"
+              ],
+              "answer_index": 1,
+              "explanation": "Diagonal memberi kesan meluncur/bergerak."
+            }
+          ],
+          "minigame": {
+            "type": "tap_match",
+            "title": "Garis Kilat",
+            "config": {
+              "prompt": "Pilih garis yang benar!",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Garis Zigzag",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Garis Lengkung",
+                  "correct": true
+                },
+                {
+                  "id": "3",
+                  "label": "Lingkaran Penuh",
+                  "correct": false
+                },
+                {
+                  "id": "4",
+                  "label": "Kotak",
+                  "correct": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s1-c2",
+          "order": 2,
+          "title": "Geometris vs Organik",
+          "is_boss": false,
+          "theory": [
+            {
+              "text": "Bentuk geometris beraturan seperti kotak dan lingkaran.",
+              "image": "🧊"
+            },
+            {
+              "text": "Bentuk organik tidak beraturan seperti daun dan awan.",
+              "image": "🍃"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "s1c2-q1",
+              "question": "Mana yang termasuk bentuk organik?",
+              "options": [
+                "Daun",
+                "Kotak korek",
+                "Penggaris"
+              ],
+              "answer_index": 0,
+              "explanation": "Daun tidak beraturan."
+            },
+            {
+              "id": "s1c2-q2",
+              "question": "Lingkaran, persegi, dan segitiga termasuk bentuk?",
+              "options": [
+                "Organik",
+                "Geometris",
+                "Abstrak"
+              ],
+              "answer_index": 1,
+              "explanation": "Itu adalah bentuk geometris dasar."
+            },
+            {
+              "id": "s1c2-q3",
+              "question": "Benda yang memiliki panjang, lebar, dan tinggi disebut bentuk?",
+              "options": [
+                "Satu dimensi",
+                "Dua dimensi",
+                "Tiga dimensi"
+              ],
+              "answer_index": 2,
+              "explanation": "3D memiliki volume."
+            }
+          ],
+          "minigame": {
+            "type": "drag_sort",
+            "title": "Sortir Kilat",
+            "config": {
+              "categories": [
+                "Geometris",
+                "Organik"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Kotak Korek",
+                  "target": "Geometris"
+                },
+                {
+                  "id": "2",
+                  "label": "Daun Kering",
+                  "target": "Organik"
+                },
+                {
+                  "id": "3",
+                  "label": "Bola Pingpong",
+                  "target": "Geometris"
+                },
+                {
+                  "id": "4",
+                  "label": "Awan",
+                  "target": "Organik"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s1-c3",
+          "order": 3,
+          "title": "Titik, Garis, Bidang",
+          "is_boss": false,
+          "theory": [
+            {
+              "text": "Titik adalah unsur terkecil.",
+              "image": "·"
+            },
+            {
+              "text": "Garis membentuk bidang.",
+              "image": "◼"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "s1c3-q1",
+              "question": "Unsur seni rupa yang paling kecil?",
+              "options": [
+                "Titik",
+                "Bidang",
+                "Garis"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s1c3-q2",
+              "question": "Titik-titik yang disusun berurutan membentuk?",
+              "options": [
+                "Warna",
+                "Garis",
+                "Tekstur"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s1c3-q3",
+              "question": "Garis yang tertutup membentuk?",
+              "options": [
+                "Bidang",
+                "Titik",
+                "Cahaya"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "hotspot_find",
+            "title": "Detektif Bentuk",
+            "config": {
+              "prompt": "Pilih contoh Titik di alam sekitar!",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Bintang di Langit Malam",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Garis Batas Cakrawala",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Butiran Pasir",
+                  "correct": true
+                },
+                {
+                  "id": "4",
+                  "label": "Bidang Tembok",
+                  "correct": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s1-c4",
+          "order": 4,
+          "title": "Garis Kontur",
+          "is_boss": false,
+          "theory": [
+            {
+              "text": "Garis kontur menggambarkan batas objek.",
+              "image": "🖍"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "s1c4-q1",
+              "question": "Garis kontur menggambarkan?",
+              "options": [
+                "Warna benda",
+                "Tepi/batas bentuk benda",
+                "Bayangan"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s1c4-q2",
+              "question": "Menggambar kontur sambil tidak melihat kertas disebut?",
+              "options": [
+                "Blind contour",
+                "Cross-hatching",
+                "Perspektif"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s1c4-q3",
+              "question": "Agar kontur rapi, gerakkan tangan?",
+              "options": [
+                "Cepat asal jadi",
+                "Pelan mengikuti tepi objek",
+                "Berhenti tiap detik"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "trace_path",
+            "title": "Ikuti Jalur",
+            "config": {}
+          }
+        },
+        {
+          "id": "s1-c5",
+          "order": 5,
+          "title": "Monster Bentuk",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "s1c5-q1",
+              "question": "Kepala monster yang bulat memakai bentuk dasar?",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi panjang"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s1c5-q2",
+              "question": "Bentuk dasar yang memberi kesan runcing/tajam?",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Oval"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s1c5-q3",
+              "question": "Menyusun bentuk dasar menjadi sebuah objek disebut?",
+              "options": [
+                "Konstruksi bentuk",
+                "Arsir",
+                "Gradasi"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "shape_builder",
+            "title": "Rakit Monster",
+            "config": {
+              "prompt": "Pilih kepingan untuk merakit Monster Berkepala Bulat!",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "+ Kepala Bulat",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "+ Kepala Segitiga",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "+ 2 Mata",
+                  "correct": true
+                },
+                {
+                  "id": "4",
+                  "label": "+ Badan Lingkaran",
+                  "correct": true
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stage-2",
+      "order": 2,
+      "title": "Pesta Warna",
+      "mascot": "tetes",
+      "guide": {
+        "summary": "Mempelajari warna, dari primer hingga harmoni dan kesannya.",
+        "key_points": [
+          "Warna primer, sekunder, tersier",
+          "Komplementer berseberangan di roda warna",
+          "Warna hangat dan dingin"
+        ],
+        "terms": [
+          {
+            "term": "Komplementer",
+            "definition": "Warna yang berseberangan (merah-hijau, biru-oranye, kuning-ungu)."
+          },
+          {
+            "term": "Analogus",
+            "definition": "Warna yang bersebelahan di roda warna."
+          },
+          {
+            "term": "Monokromatik",
+            "definition": "Satu warna dengan variasi terang-gelap (tint dan shade)."
+          },
+          {
+            "term": "Tint",
+            "definition": "Warna yang dicampur dengan putih."
+          },
+          {
+            "term": "Shade",
+            "definition": "Warna yang dicampur dengan hitam."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s2-c1",
+          "order": 1,
+          "title": "Primer, Sekunder, Tersier",
+          "is_boss": false,
+          "theory": [
+            {
+              "text": "Primer: Merah, Kuning, Biru.",
+              "image": "🔴🟡🔵"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "s2c1-q1",
+              "question": "Tiga warna primer (pigmen cat)?",
+              "options": [
+                "Merah, kuning, biru",
+                "Hijau, ungu, oranye",
+                "Hitam, putih, abu"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c1-q2",
+              "question": "Biru + kuning = ?",
+              "options": [
+                "Ungu",
+                "Hijau",
+                "Oranye"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s2c1-q3",
+              "question": "Merah + kuning = ?",
+              "options": [
+                "Oranye",
+                "Cokelat",
+                "Merah muda"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "color_mixer",
+            "title": "Racik Cat",
+            "config": {
+              "target": {
+                "name": "Hijau (Campur Biru & Kuning)",
+                "hex": "#22c55e"
+              }
+            }
+          }
+        },
+        {
+          "id": "s2-c2",
+          "order": 2,
+          "title": "Roda Warna & Komplementer",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "s2c2-q1",
+              "question": "Warna yang berseberangan di roda warna disebut?",
+              "options": [
+                "Analogus",
+                "Komplementer",
+                "Monokromatik"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s2c2-q2",
+              "question": "Komplementer biru?",
+              "options": [
+                "Oranye",
+                "Hijau",
+                "Ungu"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c2-q3",
+              "question": "Komplementer kuning?",
+              "options": [
+                "Oranye",
+                "Ungu",
+                "Hijau"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "memory_match",
+            "title": "Pasangan Lawan",
+            "config": {
+              "cards": [
+                {
+                  "id": "1",
+                  "content": "Merah",
+                  "pairId": "A"
+                },
+                {
+                  "id": "2",
+                  "content": "Hijau",
+                  "pairId": "A"
+                },
+                {
+                  "id": "3",
+                  "content": "Biru",
+                  "pairId": "B"
+                },
+                {
+                  "id": "4",
+                  "content": "Oranye",
+                  "pairId": "B"
+                },
+                {
+                  "id": "5",
+                  "content": "Kuning",
+                  "pairId": "C"
+                },
+                {
+                  "id": "6",
+                  "content": "Ungu",
+                  "pairId": "C"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s2-c3",
+          "order": 3,
+          "title": "Hangat vs Dingin",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "s2c3-q1",
+              "question": "Manakah warna dingin?",
+              "options": [
+                "Merah",
+                "Biru",
+                "Kuning"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s2c3-q2",
+              "question": "Warna hangat cenderung memberi kesan?",
+              "options": [
+                "Energik dan hangat",
+                "Sejuk",
+                "Sunyi"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c3-q3",
+              "question": "Pantai tenang di pagi hari cocok didominasi?",
+              "options": [
+                "Merah-oranye menyala",
+                "Biru-hijau lembut",
+                "Hitam pekat"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "swipe_cards",
+            "title": "Termometer Warna",
+            "config": {
+              "leftLabel": "Warna Dingin",
+              "rightLabel": "Warna Hangat",
+              "cards": [
+                {
+                  "id": "1",
+                  "label": "Api Merah",
+                  "target": "right"
+                },
+                {
+                  "id": "2",
+                  "label": "Lautan Biru",
+                  "target": "left"
+                },
+                {
+                  "id": "3",
+                  "label": "Matahari Kuning",
+                  "target": "right"
+                },
+                {
+                  "id": "4",
+                  "label": "Daun Hijau",
+                  "target": "left"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s2-c4",
+          "order": 4,
+          "title": "Harmoni Warna",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "s2c4-q1",
+              "question": "Warna yang bersebelahan di roda warna disebut harmoni?",
+              "options": [
+                "Analogus",
+                "Komplementer",
+                "Triadik"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c4-q2",
+              "question": "Satu warna dengan variasi terang-gelap disebut?",
+              "options": [
+                "Monokromatik",
+                "Triadik",
+                "Kontras"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c4-q3",
+              "question": "Tiga warna berjarak sama di roda warna disebut?",
+              "options": [
+                "Analogus",
+                "Monokromatik",
+                "Triadik"
+              ],
+              "answer_index": 2,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "palette_pick",
+            "title": "Stylist Palet",
+            "config": {
+              "prompt": "Mana yang merupakan contoh harmoni Monokromatik?",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Merah Tua, Merah Muda, Merah Pastel",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Merah, Kuning, Biru",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Biru Laut, Biru Langit, Navy",
+                  "correct": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s2-c5",
+          "order": 5,
+          "title": "Senja di Pantai",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "s2c5-q1",
+              "question": "Palet matahari terbenam yang hangat?",
+              "options": [
+                "Merah-oranye-kuning",
+                "Biru-ungu",
+                "Hitam-putih"
+              ],
+              "answer_index": 0,
+              "explanation": ""
+            },
+            {
+              "id": "s2c5-q2",
+              "question": "Menambahkan putih pada warna menghasilkan?",
+              "options": [
+                "Shade",
+                "Tint",
+                "Komplementer"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            },
+            {
+              "id": "s2c5-q3",
+              "question": "Agar matahari menonjol di langit biru-ungu, gunakan?",
+              "options": [
+                "Warna senada",
+                "Warna kontras hangat",
+                "Abu-abu"
+              ],
+              "answer_index": 1,
+              "explanation": ""
+            }
+          ],
+          "minigame": {
+            "type": "canvas_ai",
+            "title": "Lukis Matahari Terbenam",
+            "config": {
+              "passing_score": 75,
+              "criteria": [
+                {
+                  "id": "c1",
+                  "text": "Ada matahari",
+                  "weight": 30
+                },
+                {
+                  "id": "c2",
+                  "text": "Palet hangat",
+                  "weight": 40
+                },
+                {
+                  "id": "c3",
+                  "text": "Kontras",
+                  "weight": 30
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stage-3",
+      "order": 3,
+      "title": "Cahaya, Bayangan & Tekstur",
+      "mascot": "lampu",
+      "guide": {
+        "summary": "Bagaimana gelap-terang dan tekstur membuat objek terlihat nyata.",
+        "key_points": [
+          "Value adalah tingkat gelap-terang",
+          "Bayangan jatuh berlawanan arah sumber cahaya",
+          "Tekstur nyata dan semu"
+        ],
+        "terms": [
+          {
+            "term": "Cast shadow",
+            "definition": "Bayangan yang jatuh menapak pada permukaan."
+          },
+          {
+            "term": "Form shadow",
+            "definition": "Bayangan yang melekat pada benda itu sendiri."
+          },
+          {
+            "term": "Cross-hatching",
+            "definition": "Arsir silang yang makin rapat makin gelap."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s3-c1",
+          "order": 1,
+          "title": "Value",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Value dalam seni rupa adalah?",
+              "options": [
+                "Tingkat gelap-terang",
+                "Jenis garis",
+                "Nama warna"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "gradient_sort",
+            "title": "Tangga Gradasi",
+            "config": {
+              "categories": [
+                "Terang",
+                "Sedang",
+                "Gelap"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Putih",
+                  "target": "Terang"
+                },
+                {
+                  "id": "2",
+                  "label": "Hitam",
+                  "target": "Gelap"
+                },
+                {
+                  "id": "3",
+                  "label": "Abu-abu Sedang",
+                  "target": "Sedang"
+                },
+                {
+                  "id": "4",
+                  "label": "Abu-abu Tua",
+                  "target": "Gelap"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s3-c2",
+          "order": 2,
+          "title": "Cahaya & Bayangan",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Bayangan yang jatuh di lantai/meja disebut?",
+              "options": [
+                "Cast shadow",
+                "Form shadow",
+                "Highlight"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "shadow_tap",
+            "title": "Pemburu Bayangan",
+            "config": {}
+          }
+        },
+        {
+          "id": "s3-c3",
+          "order": 3,
+          "title": "Tekstur",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Tekstur yang bisa diraba langsung disebut?",
+              "options": [
+                "Nyata",
+                "Semu",
+                "Hanya warna"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "texture_match",
+            "title": "Tebak Rasa",
+            "config": {
+              "prompt": "Mana tekstur yang Nyata (bisa diraba)?",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Kulit Kayu Pohon Jati",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Foto Pasir di Layar HP",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Karpet Bulu",
+                  "correct": true
+                },
+                {
+                  "id": "4",
+                  "label": "Gambar Bebatuan",
+                  "correct": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s3-c4",
+          "order": 4,
+          "title": "Arsir & Gradasi",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Arsir adalah?",
+              "options": [
+                "Garis sejajar untuk area gelap",
+                "Mencampur cat",
+                "Menghapus gambar"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "shade_brush",
+            "title": "Arsir Bola",
+            "config": {}
+          }
+        },
+        {
+          "id": "s3-c5",
+          "order": 5,
+          "title": "Trio Bervolume",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Gradasi halus membuat bentuk tampak?",
+              "options": [
+                "Pipih",
+                "3D",
+                "Transparan"
+              ],
+              "answer_index": 1
+            }
+          ],
+          "minigame": {
+            "type": "canvas_ai",
+            "title": "Bola, Kubus, Silinder",
+            "config": {
+              "passing_score": 70
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stage-4",
+      "order": 4,
+      "title": "Seni Menata (Komposisi)",
+      "mascot": "bingkai",
+      "guide": {
+        "summary": "Prinsip menata elemen agar gambar terlihat menarik.",
+        "key_points": [
+          "Rule of Thirds meletakkan objek penting di persimpangan garis 3x3",
+          "Keseimbangan simetris, asimetris, dan radial",
+          "Pusat perhatian atau focal point"
+        ],
+        "terms": [
+          {
+            "term": "Focal point",
+            "definition": "Bagian gambar yang pertama kali menarik mata penonton."
+          },
+          {
+            "term": "Irama",
+            "definition": "Pengulangan elemen secara teratur (pola)."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s4-c1",
+          "order": 1,
+          "title": "Rule of Thirds",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Rule of thirds membagi bidang menjadi?",
+              "options": [
+                "3x3",
+                "2x2",
+                "4x4"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "thirds_placer",
+            "title": "Fotografer Dadakan",
+            "config": {}
+          }
+        },
+        {
+          "id": "s4-c2",
+          "order": 2,
+          "title": "Keseimbangan",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Keseimbangan yang sama persis di kiri kanan?",
+              "options": [
+                "Simetris",
+                "Asimetris",
+                "Radial"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "balance_scale",
+            "title": "Timbangan Seni",
+            "config": {}
+          }
+        },
+        {
+          "id": "s4-c3",
+          "order": 3,
+          "title": "Pusat Perhatian",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Bagian yang pertama menarik mata disebut?",
+              "options": [
+                "Focal point",
+                "Margin",
+                "Siluet"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "focal_tap",
+            "title": "Mata Pertama",
+            "config": {}
+          }
+        },
+        {
+          "id": "s4-c4",
+          "order": 4,
+          "title": "Irama, Pola, Kesatuan",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Pengulangan elemen secara teratur menciptakan?",
+              "options": [
+                "Irama",
+                "Kontras",
+                "Fokus"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "pattern_complete",
+            "title": "Lengkapi Pola",
+            "config": {
+              "categories": [
+                "Organik/Batik",
+                "Geometris Kaku"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Motif Parang",
+                  "target": "Organik/Batik"
+                },
+                {
+                  "id": "2",
+                  "label": "Motif Kotak Papan Catur",
+                  "target": "Geometris Kaku"
+                },
+                {
+                  "id": "3",
+                  "label": "Motif Daun Sirih",
+                  "target": "Organik/Batik"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s4-c5",
+          "order": 5,
+          "title": "Poster Mini",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Elemen terpenting diletakkan di?",
+              "options": [
+                "Titik sepertiga",
+                "Pojok",
+                "Pinggir"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "shape_builder",
+            "title": "Desain Poster",
+            "config": {
+              "prompt": "Pilih elemen yang membuat poster SEIMBANG & JELAS!",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Judul Besar di Atas (Fokus)",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Teks Menumpuk Acak",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Gambar Utama di Tengah",
+                  "correct": true
+                },
+                {
+                  "id": "4",
+                  "label": "Warna Latar Terlalu Mencolok",
+                  "correct": false
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stage-5",
+      "order": 5,
+      "title": "Menembus Ruang (Perspektif)",
+      "mascot": "garis",
+      "guide": {
+        "summary": "Menciptakan kesan ruang 3D pada bidang datar 2D.",
+        "key_points": [
+          "Foreground, middle ground, background",
+          "Perspektif 1 dan 2 titik hilang",
+          "Objek makin jauh makin kecil dan memudar"
+        ],
+        "terms": [
+          {
+            "term": "Titik hilang",
+            "definition": "Titik pertemuan garis sejajar pada garis horizon."
+          },
+          {
+            "term": "Perspektif atmosfer",
+            "definition": "Objek jauh terlihat lebih pucat, kebiruan, dan kabur."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s5-c1",
+          "order": 1,
+          "title": "Depan, Tengah, Belakang",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Paling dekat penonton?",
+              "options": [
+                "Foreground",
+                "Background",
+                "Horizon"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "layer_stack",
+            "title": "Susun Panggung",
+            "config": {
+              "categories": [
+                "Latar Belakang",
+                "Latar Depan"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Gunung di Kejauhan",
+                  "target": "Latar Belakang"
+                },
+                {
+                  "id": "2",
+                  "label": "Bunga Besar Menutupi Layar",
+                  "target": "Latar Depan"
+                },
+                {
+                  "id": "3",
+                  "label": "Awan dan Langit",
+                  "target": "Latar Belakang"
+                },
+                {
+                  "id": "4",
+                  "label": "Pagar di Depan Penonton",
+                  "target": "Latar Depan"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s5-c2",
+          "order": 2,
+          "title": "1 Titik Hilang",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Garis sejajar bertemu di?",
+              "options": [
+                "Titik hilang",
+                "Fokus",
+                "Bawah"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "vanishing_lines",
+            "title": "Jalan Tak Berujung",
+            "config": {}
+          }
+        },
+        {
+          "id": "s5-c3",
+          "order": 3,
+          "title": "2 Titik Hilang",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Garis vertikal pada 2 titik hilang tetap?",
+              "options": [
+                "Tegak lurus",
+                "Miring",
+                "Melengkung"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "city_builder",
+            "title": "Bangun Kota",
+            "config": {}
+          }
+        },
+        {
+          "id": "s5-c4",
+          "order": 4,
+          "title": "Dekat atau Jauh?",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Objek jauh tampak?",
+              "options": [
+                "Lebih kecil",
+                "Besar",
+                "Sama"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "depth_swipe",
+            "title": "Radar Kedalaman",
+            "config": {
+              "leftLabel": "Jauh (Pudar)",
+              "rightLabel": "Dekat (Jelas)",
+              "cards": [
+                {
+                  "id": "1",
+                  "label": "Pohon Berkabut Biru",
+                  "target": "left"
+                },
+                {
+                  "id": "2",
+                  "label": "Batu Bertekstur Tajam",
+                  "target": "right"
+                },
+                {
+                  "id": "3",
+                  "label": "Gunung Samar-samar",
+                  "target": "left"
+                },
+                {
+                  "id": "4",
+                  "label": "Daun Detail",
+                  "target": "right"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s5-c5",
+          "order": 5,
+          "title": "Jalan ke Cakrawala",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Tiang listrik makin jauh makin?",
+              "options": [
+                "Kecil",
+                "Besar",
+                "Sama"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "canvas_ai",
+            "title": "Lukis Jalan",
+            "config": {
+              "passing_score": 70
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stage-6",
+      "order": 6,
+      "title": "Jelajah Waktu (Sejarah)",
+      "mascot": "kurator",
+      "guide": {
+        "summary": "Menjelajahi sejarah seni dari zaman batu hingga modern.",
+        "key_points": [
+          "Lukisan gua adalah awal seni prasejarah",
+          "Renaisans adalah masa kelahiran kembali (Da Vinci, Michelangelo)",
+          "Seni modern: Impresionisme hingga Kubisme"
+        ],
+        "terms": [
+          {
+            "term": "Impresionisme",
+            "definition": "Gaya melukis dengan sapuan cepat menangkap cahaya, seperti karya Monet."
+          },
+          {
+            "term": "Batik",
+            "definition": "Seni tradisional Indonesia yang diakui UNESCO tahun 2009."
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "s6-c1",
+          "order": 1,
+          "title": "Seni Prasejarah",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Lukisan gua Leang-Leang di pulau?",
+              "options": [
+                "Sulawesi",
+                "Jawa",
+                "Bali"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "timeline_sort",
+            "title": "Mesin Waktu",
+            "config": {
+              "categories": [
+                "Prasejarah (Kuno)",
+                "Modern"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Lukisan Gua Leang-Leang",
+                  "target": "Prasejarah (Kuno)"
+                },
+                {
+                  "id": "2",
+                  "label": "Gaya Kubisme (Picasso)",
+                  "target": "Modern"
+                },
+                {
+                  "id": "3",
+                  "label": "Batu Ukiran Purba",
+                  "target": "Prasejarah (Kuno)"
+                },
+                {
+                  "id": "4",
+                  "label": "Impresionisme Perancis",
+                  "target": "Modern"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s6-c2",
+          "order": 2,
+          "title": "Renaisans",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Pelukis Mona Lisa?",
+              "options": [
+                "Michelangelo",
+                "Da Vinci",
+                "Van Gogh"
+              ],
+              "answer_index": 1
+            }
+          ],
+          "minigame": {
+            "type": "who_painted",
+            "title": "Siapa Pelukisnya",
+            "config": {
+              "prompt": "Siapakah pelukis Mona Lisa?",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Leonardo Da Vinci",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Vincent Van Gogh",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Raden Saleh",
+                  "correct": false
+                },
+                {
+                  "id": "4",
+                  "label": "Michelangelo",
+                  "correct": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s6-c3",
+          "order": 3,
+          "title": "Impresionisme",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "The Starry Night dilukis oleh?",
+              "options": [
+                "Monet",
+                "Van Gogh",
+                "Da Vinci"
+              ],
+              "answer_index": 1
+            }
+          ],
+          "minigame": {
+            "type": "swipe_cards",
+            "title": "Tebak Gaya",
+            "config": {
+              "leftLabel": "Impresionisme",
+              "rightLabel": "Kubisme",
+              "cards": [
+                {
+                  "id": "1",
+                  "label": "Bentuk Terpecah-pecah Kotak",
+                  "target": "right"
+                },
+                {
+                  "id": "2",
+                  "label": "Sapuan Cahaya Alam Lembut",
+                  "target": "left"
+                },
+                {
+                  "id": "3",
+                  "label": "Wajah Menjadi Segitiga",
+                  "target": "right"
+                },
+                {
+                  "id": "4",
+                  "label": "Menitikberatkan pada pantulan cahaya",
+                  "target": "left"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s6-c4",
+          "order": 4,
+          "title": "Seni Indonesia",
+          "is_boss": false,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Raden Saleh melukis?",
+              "options": [
+                "Pangeran Diponegoro",
+                "Mona Lisa",
+                "Starry Night"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "map_drag",
+            "title": "Peta Nusantara",
+            "config": {
+              "categories": [
+                "Jawa",
+                "Papua"
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Wayang Kulit",
+                  "target": "Jawa"
+                },
+                {
+                  "id": "2",
+                  "label": "Ukiran Asmat",
+                  "target": "Papua"
+                },
+                {
+                  "id": "3",
+                  "label": "Batik Pekalongan",
+                  "target": "Jawa"
+                },
+                {
+                  "id": "4",
+                  "label": "Patung Kamoro",
+                  "target": "Papua"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "s6-c5",
+          "order": 5,
+          "title": "Kurator Muda",
+          "is_boss": true,
+          "theory": [],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Ujian Akhir",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "answer_index": 0
+            }
+          ],
+          "minigame": {
+            "type": "marathon_quiz",
+            "title": "Ujian Akhir",
+            "config": {
+              "prompt": "Pilih SEMUA pernyataan yang BENAR untuk lulus!",
+              "items": [
+                {
+                  "id": "1",
+                  "label": "Biru adalah warna primer",
+                  "correct": true
+                },
+                {
+                  "id": "2",
+                  "label": "Rule of Thirds meletakkan objek di pojok layar",
+                  "correct": false
+                },
+                {
+                  "id": "3",
+                  "label": "Hijau adalah campuran Biru dan Kuning",
+                  "correct": true
+                },
+                {
+                  "id": "4",
+                  "label": "Garis diagonal memberi kesan diam",
+                  "correct": false
+                },
+                {
+                  "id": "5",
+                  "label": "Impresionisme mengutamakan efek cahaya",
+                  "correct": true
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

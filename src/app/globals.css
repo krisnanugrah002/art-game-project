@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  --color-brand-800: #5b21b6;
+  --color-brand-surface: #4c1d95;
+
+  --color-duo-green-400: #58cc02;
+  --color-duo-green-500: #46a302;
+  --color-duo-green-600: #357c02;
+
+  --font-sans: "Nunito", "ui-rounded", "system-ui", "sans-serif";
+
+  --animate-bounce-gentle: bounceSoft 2s infinite ease-in-out;
+  --animate-pulse-glow: pulseGlow 2s infinite;
+  --animate-float: floating 3s ease-in-out infinite;
+
+  @keyframes bounceSoft {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.5); }
+    50% { box-shadow: 0 0 0 16px rgba(124, 58, 237, 0); }
+  }
+  @keyframes floating {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-5px) scale(1.03); }
+  }
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 3D Duolingo-style push button feel */
+@utility btn-3d-purple {
+  box-shadow: 0 8px 0 #5b21b6, 0 12px 18px rgba(91, 33, 182, 0.35);
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 0 #5b21b6, 0 16px 22px rgba(91, 33, 182, 0.4);
+  }
+  &:active {
+    transform: translateY(6px);
+    box-shadow: 0 2px 0 #5b21b6, 0 4px 8px rgba(91, 33, 182, 0.3);
+  }
+}
+
+@utility btn-3d-emerald {
+  box-shadow: 0 8px 0 #047857, 0 12px 18px rgba(5, 150, 105, 0.35);
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 0 #047857, 0 16px 22px rgba(5, 150, 105, 0.4);
+  }
+  &:active {
+    transform: translateY(6px);
+    box-shadow: 0 2px 0 #047857, 0 4px 8px rgba(5, 150, 105, 0.3);
+  }
+}
+
+@utility btn-3d-gray {
+  box-shadow: 0 7px 0 #9ca3af;
+  cursor: not-allowed;
+}
+
+@utility btn-3d-green {
+    background-color: #58cc02;
+    box-shadow: 0 4px 0 #46a302;
+    transition: all 0.1s ease;
+    position: relative;
+    &:active {
+        transform: translateY(4px);
+        box-shadow: 0 0 0 #46a302;
+    }
+}
+
+@utility banner-3d {
+  box-shadow: 0 6px 0 #6d28d9;
+}
+
+/* Tooltip speech bubble tail */
+@utility speech-tail {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px 8px 0 8px;
+    border-style: solid;
+    border-color: #7c3aed transparent transparent transparent;
+  }
+}
+
+/* Drawing canvas styling */
+canvas {
+    touch-action: none;
+    cursor: crosshair;
+}
+
+@utility pulse-badge {
+    animation: subtle-pulse 3s infinite ease-in-out;
+}
+
+@keyframes subtle-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
